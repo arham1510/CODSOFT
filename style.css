@@ -1,0 +1,315 @@
+* {
+
+    font-family: Arial;
+    box-sizing: content-box;
+   
+    
+}
+
+.navbar {
+    height:60px;
+    background-color:rgba(25, 25, 24, 0.79);
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex; 
+    
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+   justify-content:space-evenly;
+}
+
+.logo {
+    background-image: url("https://img.freepik.com/premium-photo/diverse-color-palette-brush_553012-66193.jpg?size=626&ext=jpg&ga=GA1.1.1040227714.1724225283&semt=ais_hybrid");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+    
+
+}
+.border{
+
+    border: 3px solid transparent;
+}
+.border:hover{
+
+    border :3px solid rgb(251, 251, 252);
+    
+}
+
+.nav-search{
+
+    display:flex;
+    justify-content: space-evenly;
+    background-color: rgb(249, 200, 2);
+    width: 700px;
+    height: 40px;
+    border-radius: 5px;
+ 
+
+}
+
+.search-select{
+
+    background-color: rgb(221, 251, 251);
+    width: 50px;
+    text-align:center;
+    border: radius 5px;
+    font-size: 1rem;
+    border:none;
+}
+.search-input{
+
+    width: 100%;
+    border:none;
+}
+.search-icon{
+
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: rgb(0, 4, 9);
+}
+.nav-signin{
+
+    color: rgb(249, 247, 251);
+    align-content: center;
+    font-weight: 900;
+    font-size: 0.9rem;    
+}
+
+span{
+    font-size: 0.9rem;
+    font-weight: 900;
+    height: 50px;
+}
+.nav-second{
+    font-size: 0.9rem;
+    font-weight: 900;
+}
+.nav-orders{
+    color: rgb(244, 241, 246);
+    font-size: 0.9rem;
+    font-weight: 900;
+    
+}
+.nav-likeditems{
+    color: rgb(249, 245, 252);
+    font-weight: bolder;
+}
+
+.nav-cart{
+    color: rgb(253, 251, 254);
+    font-weight: bolder;
+}
+
+.panel-all{
+    display: flex;
+    background-color:rgb(251, 210, 157) ;
+    height: 40px;
+    align-items: center ;
+}
+.panel-all:hover{
+
+    border :3px solid rgb(251, 251, 252);
+    
+}
+
+.panel-option p{
+    display: inline;
+    margin-left: 20px;
+}
+
+.panel-option{
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.hero-section{
+
+    background-image: url(https://cdn4.vectorstock.com/i/1000x1000/93/13/artist-near-canvas-concept-vector-49869313.jpg);
+    height:1000px;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-msg{
+    color: black;
+    font-weight:900; 
+    position:absolute;
+    top: 40%;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;  
+    display:flow-root;
+}
+
+.types-of-paintings{
+     
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #fdfadd
+}
+.box{
+    /*border: 2px, solid, black;*/
+    height: 400px;
+    width: 23%;
+    margin-top: 1%;
+    background-color: rgb(255, 254, 255);
+    padding: 20px, 0px, 15px;    
+}
+
+.box:hover{
+
+    border :3px solid rgb(252, 252, 254);
+    
+}
+.box1-img{
+     height: 300px;  
+     background-size: cover; 
+}
+
+.box2-img{
+    height: 300px;
+    background-size: cover; 
+}
+
+.box3-img{
+        height: 300px;
+        background-size: cover; 
+}
+
+.box4-img{
+         height: 300px;
+         background-size: cover;
+}
+.box5-img{
+    height: 300px;  
+    background-size: cover; 
+}
+.box6-img{
+    height: 300px;  
+    background-size: cover; 
+}
+.box7-img{
+    height: 300px;  
+    background-size: cover; 
+}
+.box8-img{
+    height: 300px;  
+    background-size: cover; 
+}
+
+
+.box1-content{
+
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.box2-content{
+
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.box3-content{
+
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.box4-content{
+
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.box5-content{
+
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.box6-content{
+
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.box7-content{
+
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.box8-content{
+
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+footer{
+    margin-top:10px;
+
+}
+
+.footer-panel1{
+
+    background-color: rgb(53, 85, 129);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: azure;
+    height: 40px;}
+
+    .footer-panel1 a:hover{
+
+        border :2px solid rgb(251, 251, 252);
+        
+    }
+
+.footer-panel{
+    display: inline;
+
+}
+    .footer-panel2 {
+        background-color: rgb(43, 42, 42);
+        color: aliceblue;
+        height: 300px;
+    }
+    .footer-panel2 p :hover{
+
+        border :3px solid rgb(251, 251, 252);
+        
+    }
+
+.footer-panel2  p {
+
+    display:block;
+    font-weight: 900;
+}
+
+.footer-panel2  {
+     display:flex;
+     justify-content: space-evenly;
+    
+    
+}
+ul a {
+    display: block;
+    
+}
+
+.connect {
+    margin-top: 10px;
+    align-items: center;
+    display: flex; 
+    font-weight: 900;
+    justify-content: center;
+    background-color: #787878;
+    
+}
